@@ -2,12 +2,18 @@ package scripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-public class _14_MultipleWindowsTest extends Base{
+import utils.Waiter;
+import utils.WindowHandler;
+
+
+
+public class _14_MultipleWindowsTest extends Base {
 
     @BeforeMethod
-    public void setPage(){
+    public void setPage() {
         driver.get("https://techglobal-training.com/frontend");
         driver.findElement(By.id("card-10")).click();
     }
@@ -21,9 +27,22 @@ public class _14_MultipleWindowsTest extends Base{
      */
 
     @Test
-    public void validateTheAppleNavigation(){
+    public void validateTheAppleNavigation() {
+        String mainWindow = driver.getWindowHandle(); // TG id
+
         WebElement appleLink = driver.findElement(By.id("apple"));
 
         appleLink.click();
+
+        String secondWindow = "";
+
+        for (String s : driver.getWindowHandles()) {
+            if (!s.equals(mainWindow)) secondWindow = s;
+        }
+        driver.switchTo().window(secondWindow); // Apple id
+
+        WebElement appleLogo = driver.findElement(By.cssSelector(".globalnav-link-apple"));
+
+        Assert.assertTrue(appleLogo.isDisplayed());
     }
-}
+    }

@@ -17,7 +17,6 @@ public class _01_ProjectTest extends Base{
         driver.get("https://techglobal-training.com/frontend/project-1");
 
     }
-
         /**
          * Navigate to https://techglobal-training.com/frontend/project-1
          * Validate the heading is “Contact Us”

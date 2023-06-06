@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _01_ProjectTest extends Base{
+public class ProjectTest_01 extends Base{
 
     @BeforeMethod
     public void setPage(){
@@ -25,8 +25,8 @@ public class _01_ProjectTest extends Base{
          * Validate the phone number is “(773) 257-3010”
          */
 
-    @Test (priority = 1)
-    public void validateHading() {
+    @Test (priority = 1, description = "Test Case 01 - Validate the Contact Us information")
+    public void validateTheContactUsInformation() {
         WebElement heading = driver.findElement(By.cssSelector(".is-size-2"));
         WebElement address = driver.findElement(By.id("address"));
         WebElement email = driver.findElement(By.id("email"));
@@ -50,9 +50,12 @@ public class _01_ProjectTest extends Base{
          * Validate that the placeholder of the Full name input box is “Enter your name”
          */
 
-     @Test (priority = 2)
+     @Test (priority = 2, description = "Test Case 02 - Validate the Full name input box")
     public void validateFulNameInputBox(){
+
+
          WebElement fullNameInputBox = driver.findElement(By.xpath("(//input[@class='input'])[1]"));
+
          WebElement labelFullName = driver.findElement(By.xpath("//label[@for='name']"));
          WebElement fullNamePlaceholder = driver.findElement(By.xpath("//input[@placeholder='Enter your full name']"));
 
@@ -63,6 +66,7 @@ public class _01_ProjectTest extends Base{
          Assert.assertEquals(labelFullName.getText(), "Full name");  //Bug-1
          Assert.assertTrue(fullNamePlaceholder.isDisplayed());
          Assert.assertEquals(fullNamePlaceholder.getAttribute("placeholder"), "Enter your name");  //Bug-2
+
      }
 
     /**
@@ -124,7 +128,9 @@ public class _01_ProjectTest extends Base{
      */
     @Test (priority = 4)
     public void validateAddressInputBox(){
+
         WebElement addressInputBox = driver.findElement(By.xpath("(//input[@class='input'])[2]"));
+
         WebElement labelAddress = driver.findElement(By.xpath("(//label[@class='label'])[3]"));
         WebElement addressPlaceholder = driver.findElement(By.xpath("//input[@placeholder='Enter your address']"));
 
@@ -133,6 +139,7 @@ public class _01_ProjectTest extends Base{
         Assert.assertFalse(isRequired);
         Assert.assertEquals(labelAddress.getText(), "Address");
         Assert.assertEquals(addressPlaceholder.getAttribute("placeholder"), "Enter your address*");   //Bug-5
+
     }
 
     /**
@@ -244,7 +251,8 @@ public class _01_ProjectTest extends Base{
      * Click on the “SUBMIT” button
      * Validate the form message “Thanks for submitting!” is displayed under the “SUBMIT” button
      */
-    @Test (priority = 10)
+
+    @Test (priority = 10, description = "")
     public void validateFormSubmission(){
         WebElement fullNameInputBox = driver.findElement(By.xpath("(//input[@class='input'])[1]"));
         WebElement femaleRadioButton = driver.findElement(By.xpath("(//input[@type='radio'])[2]"));

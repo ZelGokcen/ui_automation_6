@@ -10,7 +10,9 @@ import utils.Waiter;
 
 import java.util.List;
 
-public class Project01_By_Akin extends Base{
+public class _01_ProjectTest extends Base{
+
+    // ASSAGIDAKi TÜM SORULAR EMAIL'iMDE YAZILI
 
     @BeforeMethod
     public void setPage(){
@@ -28,7 +30,7 @@ public class Project01_By_Akin extends Base{
         Assert.assertEquals(contactUsHeading.getText(), "Contact Us");
 
         Assert.assertTrue(contactUsAddress.isDisplayed());
-        Assert.assertEquals(contactUsAddress.getText(), "2860 S River Rd Suite 350, Des Plaines IL 60018");
+        Assert.assertEquals(contactUsAddress.getText(), "2860 S River Rd Suite 480, Des Plaines IL 60018");
 
         Assert.assertTrue(contactUsEmail.isDisplayed());
         Assert.assertEquals(contactUsEmail.getText(), "info@techglobalschool.com");

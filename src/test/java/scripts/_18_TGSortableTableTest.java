@@ -26,6 +26,7 @@ public class _18_TGSortableTableTest extends Base{
      * Click on the Quantity sort button to toggle Ascending Order
      * Verify that the Quantity column of the table is sorted in ascending order
      */
+
     @Test
     public void validateSortAscByQuantity(){
         WebElement ascByQuantity = driver.findElement(By.id("quantity_asc"));

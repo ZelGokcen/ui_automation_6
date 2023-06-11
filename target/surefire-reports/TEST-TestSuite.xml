@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="187.835" tests="218" errors="0" skipped="192" failures="22">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.361-b09"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zelihagokcenarmas/IdeaProjects/ui_automation_6"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zelihagokcenarmas/IdeaProjects/ui_automation_6"/>
+    <property name="java.runtime.version" value="1.8.0_361-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/v6/_fyk8cws0gs1f_mf_pr05lp40000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zelihagokcenarmas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="13.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zelihagokcenarmas"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zelihagokcenarmas"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 test -PRegression"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_361"/>
+    <property name="java.ext.dirs" value="/Users/zelihagokcenarmas/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="validateNavigation" classname="scripts._01_GoogleTest" time="39.875"/>
+  <testcase name="validateSearchButton" classname="scripts._01_GoogleTest" time="0.533"/>
+  <testcase name="validateTitleAndURL" classname="scripts._01_GoogleTest" time="0.022"/>
+  <testcase name="validateTheContactUsInformation" classname="scripts._01_ProjectTest" time="0.501">
+    <failure message="expected [2860 S River Rd Suite 480, Des Plaines IL 60018] but found [2860 S River Rd Suite 480, Des Plaines, IL 60018]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2860 S River Rd Suite 480, Des Plaines IL 60018] but found [2860 S River Rd Suite 480, Des Plaines, IL 60018]
+	at scripts._01_ProjectTest.validateTheContactUsInformation(_01_ProjectTest.java:33)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 1812
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 11, 2023 3:30:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateTheFullNameInputBox" classname="scripts._01_ProjectTest" time="0.621">
+    <failure message="expected [Enter your name] but found [Enter your full name]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Enter your name] but found [Enter your full name]
+	at scripts._01_ProjectTest.validateTheFullNameInputBox(_01_ProjectTest.java:50)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 11, 2023 3:30:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateTheGenderRadioButton" classname="scripts._01_ProjectTest" time="0.045">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8&#10;*** Element info: {Using=xpath, value=//label[text()=&apos;Gender *&apos;]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+*** Element info: {Using=xpath, value=//label[text()='Gender *']}
+	at scripts._01_ProjectTest.validateTheGenderRadioButton(_01_ProjectTest.java:58)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40248
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 11, 2023 3:30:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1686515443.035][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0.053">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._01_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheAddressInputBox" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheEmailInputBox" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateThePhoneInputBox" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheMessageTextArea" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheConsentCheckbox" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheSubmitButton" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheFormSubmission" classname="scripts._01_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0.008">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._02_ProjectTest.setPage(_02_ProjectTest.java:13)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheLoginForm" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._02_ProjectTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheValidLogin" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheLogOut" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheForgotPasswordLinkAndResetPasswordModal" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheResetPasswordModalCloseButton" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheResetPasswordFormSubmission" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheInvalidLoginWithEmptyCredentials" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheInvalidLoginWithTheWrongUsername" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheInvalidLoginWithTheWrongPassword" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheInvalidLoginWithTheWrongUsernameAndPassword" classname="scripts._02_ProjectTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTitleAndURL" classname="scripts._02_AppleTest" time="1.251"/>
+  <testcase name="setPage" classname="scripts._03_TGLocatorsTest" time="4.366">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._03_TGLocatorsTest.setPage(_03_TGLocatorsTest.java:31)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateKiwiParagraph" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateOrangeParagraph" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateGrapesParagraph" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateRedAppleLink" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateAllLinks" classname="scripts._03_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._04_TGLocatorsTest" time="0.014">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._04_TGLocatorsTest.setPage(_04_TGLocatorsTest.java:22)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateAutomationTools" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateListHeaders" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheHeader" classname="scripts._04_TGLocatorsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._05_FacebookTest" time="0.011">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._05_FacebookTest.setPage(_05_FacebookTest.java:29)
+</failure>
+  </testcase>
+  <testcase name="validateFacebookInvalidLoginAttempt" classname="scripts._05_FacebookTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._05_FacebookTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._06_WikiTest" time="0.008">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._06_WikiTest.setPage(_06_WikiTest.java:21)
+</failure>
+  </testcase>
+  <testcase name="validateWikiSearch2" classname="scripts._06_WikiTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._06_WikiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._07_TGDynamicElementsTest" time="0.007">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._07_TGDynamicElementsTest.setPage(_07_TGDynamicElementsTest.java:33)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._07_TGDynamicElementsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateDynamicElementBox1" classname="scripts._07_TGDynamicElementsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._07_TGDynamicElementsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._07_TGDynamicElementsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._07_TGDynamicElementsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateDynamicElementBox2" classname="scripts._07_TGDynamicElementsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._08_TGWaitsTest" time="0.001">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._08_TGWaitsTest.setPage(_08_TGWaitsTest.java:14)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._08_TGWaitsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="waitForBlueBox" classname="scripts._08_TGWaitsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._08_TGWaitsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._08_TGWaitsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._08_TGWaitsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="waitForRedBox" classname="scripts._08_TGWaitsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._09_TGCheckboxTest" time="0">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._09_TGCheckboxTest.setPage(_09_TGCheckboxTest.java:24)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._09_TGCheckboxTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkboxTest" classname="scripts._09_TGCheckboxTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._09_TGCheckboxTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._09_TGCheckboxTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._09_TGCheckboxTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkboxTest2" classname="scripts._09_TGCheckboxTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._10_TGRadioButtonsTest" time="0.01">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._10_TGRadioButtonsTest.setPage(_10_TGRadioButtonsTest.java:24)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._10_TGRadioButtonsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="radioButtonsTest" classname="scripts._10_TGRadioButtonsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._10_TGRadioButtonsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._10_TGRadioButtonsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._10_TGRadioButtonsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validatePracticeMore" classname="scripts._10_TGRadioButtonsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._11_TGDropdownsTest" time="0.004">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._11_TGDropdownsTest.setPage(_11_TGDropdownsTest.java:16)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="dropdownTestCase" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="productColorTest" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="productDeliveryTest" classname="scripts._11_TGDropdownsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._12_TGAlertsTest" time="0.004">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._12_TGAlertsTest.setPage(_12_TGAlertsTest.java:15)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._12_TGAlertsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="confirmationAlert" classname="scripts._12_TGAlertsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._12_TGAlertsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._12_TGAlertsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._12_TGAlertsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="warningAlert" classname="scripts._12_TGAlertsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._13_IFrameTest" time="0.003">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._13_IFrameTest.setPage(_13_IFrameTest.java:13)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._13_IFrameTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheParagraph" classname="scripts._13_IFrameTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._13_IFrameTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._13_IFrameTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._13_IFrameTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheFormSubmission" classname="scripts._13_IFrameTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._14_MultipleWindowsTest" time="0.006">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._14_MultipleWindowsTest.setPage(_14_MultipleWindowsTest.java:17)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheAppleNavigation" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheMicrosoftNavigation" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheTeslaNavigation" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTheLinkURLs" classname="scripts._14_MultipleWindowsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._15_TGFileUpload" time="0.008">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._15_TGFileUpload.setPage(_15_TGFileUpload.java:14)
+</failure>
+  </testcase>
+  <testcase name="basicFileUpload" classname="scripts._15_TGFileUpload" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._15_TGFileUpload" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._16_TGFileDownload" time="0.005">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._16_TGFileDownload.setPage(_16_TGFileDownload.java:21)
+</failure>
+  </testcase>
+  <testcase name="validateFileDownload" classname="scripts._16_TGFileDownload" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._16_TGFileDownload" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._17_TGStaticTableTest" time="0.006">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._17_TGStaticTableTest.setPage(_17_TGStaticTableTest.java:18)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateEachCell" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateFirstRow" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateLastColumn" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="validateTableHeader" classname="scripts._17_TGStaticTableTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._18_TGSortableTableTest" time="0.01">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._18_TGSortableTableTest.setPage(_18_TGSortableTableTest.java:18)
+</failure>
+  </testcase>
+  <testcase name="validateSortAscByQuantity" classname="scripts._18_TGSortableTableTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._18_TGSortableTableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._19_TGActionsTest" time="0.007">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zelihas-MacBook-Pro.local', ip: '2601:249:8800:1260:0:0:0:9173%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8
+	at scripts._19_TGActionsTest.setPage(_19_TGActionsTest.java:18)
+</failure>
+  </testcase>
+  <testcase name="setPage" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="dragAndDrop" classname="scripts._19_TGActionsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._19_TGActionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="keyboardActions" classname="scripts._19_TGActionsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="moreKeyboardActions" classname="scripts._19_TGActionsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+  <testcase name="mouseActions" classname="scripts._19_TGActionsTest" time="0">
+    <skipped message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.106)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Zelihas-MacBook-Pro.local&apos;, ip: &apos;2601:249:8800:1260:0:0:0:9173%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;1.8.0_361&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/v6/_fyk8cws0gs...}, goog:chromeOptions: {debuggerAddress: localhost:64962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee0e7c2b6146a66d8b615f3abdacad8"/>
+  </testcase>
+</testsuite>

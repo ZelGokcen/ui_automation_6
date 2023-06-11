@@ -82,12 +82,15 @@ public class _17_TGStaticTableTest extends Base{
         WebElement mainTable = driver.findElement(By.id("company_table"));
         List<List<WebElement>> tableData = TableHandler.getTableData(mainTable);
 
-        // Just to debug purposes, we dont need this
-//        for(List<WebElement> row: tableData){
-//            for(WebElement cell : row){
-//                System.out.println(cell.getText());
-//            }
-//        }
+        /*
+        // Just to debug purposes, we don't need this
+      for(List<WebElement> row: tableData){
+            for(WebElement cell : row){
+                System.out.println(cell.getText());
+            }
+       }
+
+         */
 
         List<List<String>> table = new ArrayList<>();
         table.add(Arrays.asList("1", "Amazon", "1,523,000", "USA"));

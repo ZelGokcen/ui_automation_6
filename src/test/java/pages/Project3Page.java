@@ -1,11 +1,9 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Driver;
-
 import java.util.List;
 
 public class Project3Page {
@@ -23,7 +21,7 @@ public class Project3Page {
     @FindBy(xpath = "(//div[@class='field']/label)[1]")
     public WebElement cabinClassLabel;
     @FindBy(xpath = "(//div[@style='width: 100%;']/select)[1]")
-    public WebElement cabinClassDropdown;
+    public WebElement cabinClassDropdownList;
 
     @FindBy(xpath = "(//div[@class='field']/label)[2]")
     public WebElement fromLabel;
@@ -50,14 +48,13 @@ public class Project3Page {
     public WebElement numberOfPassengersLabel;
 
     @FindBy(css = "form>div>div:nth-child(7)>div")
-    public WebElement numPassengerBox;
+    public WebElement numberOfPassengerSelect;
 
     @FindBy(xpath = "(//div[@class='field']/label)[7]")
     public WebElement passenger1Label;
 
     @FindBy(css = "form>div>div:nth-child(8)>div>select")
     public WebElement passenger1_AgeDropdown;
-
 
     @FindBy(css = "button[class^='Button']")
     public WebElement bookButton;
@@ -78,7 +75,47 @@ public class Project3Page {
     @FindBy(xpath = "(//div[@style='width: 100%;']/select)[1]/option [2]")
     public WebElement select_Business;
 
+    @FindBy(css = (".field:nth-child(3) select"))
+    public WebElement fromStateSelect;
 
+    @FindBy(css = (".field:nth-child(4) select"))
+    public WebElement toStateSelect;
+
+
+    @FindBy(css = (".field:nth-child(5) .control input[name='month']"))
+    public WebElement month;
+
+    @FindBy(css = (".field:nth-child(5) .control input[name='day']"))
+    public WebElement day;
+
+    @FindBy(css = (".field:nth-child(5) .control input[name='year']"))
+    public WebElement year;
+
+    @FindBy(css = (".field:nth-child(6) .control input[name='month']"))
+    public WebElement monthReturn;
+
+    @FindBy(css = (".field:nth-child(6) .control input[name='day']"))
+    public WebElement dayReturn;
+
+    @FindBy(css = (".field:nth-child(6) .control input[name='year']"))
+    public WebElement yearReturn;
+
+
+
+   // @FindBy(css = ("h1[class=is-underlined]"))
+    // public WebElement departLabel;
+
+    @FindBy(css = (".ml-3 h3"))
+    public WebElement fromToConfirm;
+
+    @FindBy(css = (".ml-3 div:nth-child(2) h3"))
+    public WebElement returnFrom;
+
+    @FindBy(css = (".ml p"))
+    public WebElement returnConfirmDate;
+
+    @FindBy(css = (".ml-3 p"))
+    public List<WebElement> dateOfFlightConfirm;
 
 
 
